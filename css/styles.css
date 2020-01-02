@@ -1,61 +1,38 @@
 * {
-
   padding: 0;
-
   margin: 0;
-
 }
 
 body {
-
 	background-color: #e08620;
-
 }
 
 ul {
-
 	list-style-type: none;
-
 }
 
 ul li {
-
 	font-size: 25px;
-
 	background-color: #e08620;
-
 	width: 50%;
-
 	margin: auto;
-
 	color: black;
-
 	padding: 10px;
-
 	border-radius: 5px;
-
 	margin-bottom: 20px;
-
 }
 
 span {
-
 	padding: 14px;
-
 	text-align: right;
-
 }
 
 li:nth-child(odd) {
-
 	background-color: #e08620;
-
 }
 
 li:nth-child(even) {
-
 	background-color: #e08620;
-
 }
 
 
@@ -65,63 +42,35 @@ li:nth-child(even) {
 
 
 .jumbotron {
-
 	font-family: 'Roboto Mono', monospace;
-
 	background: url("");
-
 	background-size: cover;
-
 	background-position: center;
-
 	text-align: center;
-
 	text-shadow: 1.5px 1.5px green;
-
 	opacity: 85%;
-
 }
 
 label {
-
 	font-family: 'Roboto Mono', monospace;
-
 }
 
 
 
 .todo-header {
-
-
-
 text-align: center;
-
 font-family: 'Monospaced', Courier New;
-
-
-
 }
 
 .completed {
-
 	text-decoration: line-through;
-
 	color: white;
-
 }
 
 
 
 .high-priority {
-
-
-
 	width: 50px;
-
 	height: 50px;
-
 	color: red;
-
-
-
 }
