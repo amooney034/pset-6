@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: #e08620;
+	background-color: red;
 }
 
 ul {
@@ -13,10 +13,10 @@ ul {
 
 ul li {
 	font-size: 25px;
-	background-color: #e08620;
+	background-color: red;
 	width: 50%;
 	margin: auto;
-	color: black;
+	color: white;
 	padding: 10px;
 	border-radius: 5px;
 	margin-bottom: 20px;
@@ -28,11 +28,11 @@ span {
 }
 
 li:nth-child(odd) {
-	background-color: #e08620;
+	background-color: grey;
 }
 
 li:nth-child(even) {
-	background-color: #e08620;
+	background-color: grey;
 }
 
 
@@ -42,29 +42,32 @@ li:nth-child(even) {
 
 
 .jumbotron {
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Monospaced', Times New Roman;
 	background: url("");
 	background-size: cover;
 	background-position: center;
 	text-align: center;
-	text-shadow: 1.5px 1.5px green;
+	text-shadow: 3px 3px #5bd6ff;
 	opacity: 85%;
 }
 
 label {
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Monospaced', Times New Roman;
+  text-shadow: 3px 3px #5bd6ff; 
 }
 
 
 
 .todo-header {
 text-align: center;
-font-family: 'Monospaced', Courier New;
+font-family: 'Monospaced', Times New Roman;
+text-shadow: 3px 3px #5bd6ff;
 }
 
 .completed {
-	text-decoration: line-through;
-	color: white;
+	text-decoration-line: line-through;
+  text-decoration-style: double;
+	color: green;
 }
 
 
