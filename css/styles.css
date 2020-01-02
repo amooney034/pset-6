@@ -8,7 +8,7 @@
 
 body {
 
-	background-color: #cccc99;
+	background-color: #e08620;
 
 }
 
@@ -22,7 +22,7 @@ ul li {
 
 	font-size: 25px;
 
-	background-color: #cccc99;
+	background-color: #e08620;
 
 	width: 50%;
 
@@ -48,13 +48,13 @@ span {
 
 li:nth-child(odd) {
 
-	background-color: #cccc99;
+	background-color: #e08620;
 
 }
 
 li:nth-child(even) {
 
-	background-color: #cccc99 ;
+	background-color: #e08620;
 
 }
 
